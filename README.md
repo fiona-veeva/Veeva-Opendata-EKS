@@ -58,7 +58,7 @@ kubectl get node
 # 获取集群nodegroup名称
 eksctl get nodegroup --cluster <your-cluster-name>
 # 扩展集群节点数量
-eksctl scale nodegroup <nodegroup-name>   <your-cluster-name>
+eksctl scale nodegroup <nodegroup-name>  --cluster  <your-cluster-name>
 ```
 - 步骤三：确认新增节点已成功添加至EKS集群。
 ```
